@@ -1130,6 +1130,10 @@ nav.scrolled {
   color: #faf7f4;
 }
 
+.ci-val a {
+  color: #faf7f4;
+}
+
 /* FOOTER */
 footer {
   padding: 32px 64px;
