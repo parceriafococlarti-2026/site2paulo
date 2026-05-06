@@ -244,7 +244,7 @@ nav.scrolled {
   height: 1px;
   background: var(--rose);
 }
-.hero-title {
+.hero-title, .line-p {
   font-family: "Playfair Display", serif;
   font-size: clamp(44px, 4.5vw, 72px);
   font-weight: 400;
@@ -255,7 +255,7 @@ nav.scrolled {
   display: block;
   overflow: hidden;
 }
-.hero-title .line span {
+.hero-title .line span, .line-p {
   display: block;
   opacity: 0;
   transform: translateY(100%);
@@ -270,7 +270,7 @@ nav.scrolled {
 .hero-title .line:nth-child(3) span {
   animation-delay: 0.7s;
 }
-.hero-title em {
+.hero-highlight {
   font-style: italic;
   color: var(--rose);
 }
